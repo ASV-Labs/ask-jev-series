@@ -1,0 +1,35 @@
+{
+  "name": "ask-jev-series",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Ask for the night you want. TypeSafe Jev weighs every flagship series on the big streamers, and the ones that fit rise out of the heap.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ASV-Labs/ask-jev-series"
+  },
+  "scripts": {
+    "dev": "next dev --port 3017 --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --port 3017 --hostname 127.0.0.1",
+    "lint": "eslint",
+    "test": "tsx --test src/lib/heuristic.test.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^1.47.0",
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "tailwindcss": "^4",
+    "tsx": "^4.20.5",
+    "typescript": "^5"
+  }
+}
